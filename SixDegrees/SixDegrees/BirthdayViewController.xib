@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BirthdayViewController">
+            <connections>
+                <outlet property="datePicker" destination="fYQ-YR-f7g" id="COV-zX-X3M"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="party.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fx9-C5-f80">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="673"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You must be at least 18 years old to use SixDegrees." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UwI-R5-G6M">
+                    <rect key="frame" x="8" y="194" width="359" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="oS1-1S-obW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view alpha="0.74999999999999978" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2W-GL-EVN">
+                    <rect key="frame" x="0.0" y="305" width="375" height="206"/>
+                    <subviews>
+                        <datePicker opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYQ-YR-f7g">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                            <date key="date" timeIntervalSinceReferenceDate="-126158399.19766903">
+                                <!--1997-01-01 20:00:00 +0000-->
+                            </date>
+                        </datePicker>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2I-cv-LJr">
+                            <rect key="frame" x="0.0" y="161" width="375" height="45"/>
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.28235294119999998" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                            <state key="normal" title="SAVE">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="save:" destination="-1" eventType="touchUpInside" id="NjJ-Th-Dhm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="fYQ-YR-f7g" firstAttribute="top" secondItem="Y2W-GL-EVN" secondAttribute="top" id="0T4-dU-1aA"/>
+                        <constraint firstItem="fYQ-YR-f7g" firstAttribute="trailing" secondItem="u2I-cv-LJr" secondAttribute="trailing" id="Aot-pa-mLb"/>
+                        <constraint firstAttribute="bottom" secondItem="fYQ-YR-f7g" secondAttribute="bottom" constant="44" id="GeC-Rw-Mv8"/>
+                        <constraint firstAttribute="trailing" secondItem="fYQ-YR-f7g" secondAttribute="trailing" id="hzJ-gw-Bkz"/>
+                        <constraint firstAttribute="bottom" secondItem="u2I-cv-LJr" secondAttribute="bottom" id="mXw-Nb-jXo"/>
+                        <constraint firstItem="fYQ-YR-f7g" firstAttribute="leading" secondItem="Y2W-GL-EVN" secondAttribute="leading" id="qyW-He-UBK"/>
+                        <constraint firstItem="fYQ-YR-f7g" firstAttribute="leading" secondItem="u2I-cv-LJr" secondAttribute="leading" id="znl-yP-UIh"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your date of birth." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOf-qO-VZU">
+                    <rect key="frame" x="76" y="253" width="222" height="21"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="19"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Almost there!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZH-lZ-85w">
+                    <rect key="frame" x="0.0" y="146" width="375" height="43"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Y2W-GL-EVN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="04z-dS-hFD"/>
+                <constraint firstItem="fx9-C5-f80" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1rF-yX-so8"/>
+                <constraint firstItem="eOf-qO-VZU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="76" id="3Rr-uy-FQ2"/>
+                <constraint firstItem="fx9-C5-f80" firstAttribute="leading" secondItem="Y2W-GL-EVN" secondAttribute="leading" id="7bG-0f-E3A"/>
+                <constraint firstItem="UwI-R5-G6M" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="9uU-Nq-GFh"/>
+                <constraint firstItem="Y2W-GL-EVN" firstAttribute="top" secondItem="eOf-qO-VZU" secondAttribute="bottom" constant="31" id="KR8-Fz-Yva"/>
+                <constraint firstItem="eOf-qO-VZU" firstAttribute="centerX" secondItem="UwI-R5-G6M" secondAttribute="centerX" id="KT2-wF-vca"/>
+                <constraint firstItem="eOf-qO-VZU" firstAttribute="centerX" secondItem="fx9-C5-f80" secondAttribute="centerX" constant="-0.5" id="PN8-8C-ZSd"/>
+                <constraint firstItem="fx9-C5-f80" firstAttribute="trailing" secondItem="Y2W-GL-EVN" secondAttribute="trailing" id="PQL-S3-JkR"/>
+                <constraint firstAttribute="trailing" secondItem="UwI-R5-G6M" secondAttribute="trailing" constant="8" id="SsW-8R-NUh"/>
+                <constraint firstAttribute="bottom" secondItem="fx9-C5-f80" secondAttribute="bottom" constant="-6" id="XRu-nE-0Vn"/>
+                <constraint firstItem="Y2W-GL-EVN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="305" id="gQc-je-qc4"/>
+                <constraint firstItem="UwI-R5-G6M" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="194" id="pag-hy-UQb"/>
+                <constraint firstItem="eOf-qO-VZU" firstAttribute="top" secondItem="UwI-R5-G6M" secondAttribute="bottom" constant="1" id="wOt-Sw-bCg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="210.5" y="297.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="party.jpg" width="4219" height="2802"/>
+    </resources>
+</document>
