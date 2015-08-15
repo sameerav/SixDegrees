@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4293E8771B7F182100434AAC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4293E8751B7F182100434AAC /* FBSDKCoreKit.framework */; };
+		4293E8781B7F182100434AAC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4293E8761B7F182100434AAC /* FBSDKLoginKit.framework */; };
 		55F241BB1B4C786D00FB711F /* ArchitectsDaughter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55F241BA1B4C784C00FB711F /* ArchitectsDaughter.ttf */; };
 		758675268B6C6E439B185D09 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6851B6CF043DD4E3DA81F913 /* libPods.a */; };
 		E41BCB4B1B630B2A007E28E4 /* BlockedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41BCB491B630B2A007E28E4 /* BlockedTableViewCell.m */; };
@@ -33,7 +35,6 @@
 		E4653F8B1B50956800D67A75 /* ConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4653F8A1B50956800D67A75 /* ConversationCell.xib */; };
 		E46D1B0A1B586BFC00835C9D /* OtherUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46D1B081B586BFC00835C9D /* OtherUserViewController.m */; };
 		E46D1B0B1B586BFC00835C9D /* OtherUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46D1B091B586BFC00835C9D /* OtherUserViewController.xib */; };
-		E4786F001B4C3ECF002417A6 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4786EFD1B4C3ECF002417A6 /* FBSDKMessengerShareKit.framework */; };
 		E4786F041B4C4500002417A6 /* SixDegreesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4786F021B4C4500002417A6 /* SixDegreesLoginViewController.m */; };
 		E4786F051B4C4500002417A6 /* SixDegreesLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4786F031B4C4500002417A6 /* SixDegreesLoginViewController.xib */; };
 		E482D8521B5D756D00EEAA8E /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E482D8501B5D756D00EEAA8E /* AboutUsViewController.m */; };
@@ -84,8 +85,6 @@
 		EAA5ED531B45DC1D0069DE91 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA5ED521B45DC1D0069DE91 /* libsqlite3.dylib */; };
 		EAA5ED551B45DC270069DE91 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA5ED541B45DC270069DE91 /* Accounts.framework */; };
 		EAA5ED571B45DC2C0069DE91 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA5ED561B45DC2C0069DE91 /* Social.framework */; };
-		EAA67AEF1B509179007B4068 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA67AED1B509179007B4068 /* FBSDKCoreKit.framework */; };
-		EAA67AF01B509179007B4068 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA67AEE1B509179007B4068 /* FBSDKLoginKit.framework */; };
 		EAAA4E5A1B45FCAE00FFDE88 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA4E591B45FCAE00FFDE88 /* User.m */; };
 		EAAA819B1B6057C90061C43E /* LoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA819A1B6057C90061C43E /* LoginHelper.m */; };
 		EAAA819F1B6302510061C43E /* BlockedUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA819D1B6302510061C43E /* BlockedUserViewController.m */; };
@@ -120,6 +119,8 @@
 
 /* Begin PBXFileReference section */
 		2025AEE4FE1EDB8702B3F37F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4293E8751B7F182100434AAC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4293E8761B7F182100434AAC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		55F241BA1B4C784C00FB711F /* ArchitectsDaughter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArchitectsDaughter.ttf; sourceTree = "<group>"; };
 		6851B6CF043DD4E3DA81F913 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41BCB481B630B2A007E28E4 /* BlockedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockedTableViewCell.h; sourceTree = "<group>"; };
@@ -154,7 +155,6 @@
 		E46D1B071B586BFC00835C9D /* OtherUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherUserViewController.h; sourceTree = "<group>"; };
 		E46D1B081B586BFC00835C9D /* OtherUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherUserViewController.m; sourceTree = "<group>"; };
 		E46D1B091B586BFC00835C9D /* OtherUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherUserViewController.xib; sourceTree = "<group>"; };
-		E4786EFD1B4C3ECF002417A6 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		E4786F011B4C4500002417A6 /* SixDegreesLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixDegreesLoginViewController.h; sourceTree = "<group>"; };
 		E4786F021B4C4500002417A6 /* SixDegreesLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixDegreesLoginViewController.m; sourceTree = "<group>"; };
 		E4786F031B4C4500002417A6 /* SixDegreesLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixDegreesLoginViewController.xib; sourceTree = "<group>"; };
@@ -226,8 +226,6 @@
 		EAA5ED541B45DC270069DE91 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EAA5ED561B45DC2C0069DE91 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EAA67AE41B509006007B4068 /* SixDegreesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixDegreesTests.m; sourceTree = "<group>"; };
-		EAA67AED1B509179007B4068 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		EAA67AEE1B509179007B4068 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		EAAA4E581B45FCAE00FFDE88 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EAAA4E591B45FCAE00FFDE88 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		EAAA81991B6057C90061C43E /* LoginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
@@ -296,18 +294,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49C69871B5994FA00975E95 /* MapKit.framework in Frameworks */,
-				E4786F001B4C3ECF002417A6 /* FBSDKMessengerShareKit.framework in Frameworks */,
-				EAA67AEF1B509179007B4068 /* FBSDKCoreKit.framework in Frameworks */,
-				EAA67AF01B509179007B4068 /* FBSDKLoginKit.framework in Frameworks */,
 				EAA5ED571B45DC2C0069DE91 /* Social.framework in Frameworks */,
 				EAA5ED551B45DC270069DE91 /* Accounts.framework in Frameworks */,
 				EAA5ED531B45DC1D0069DE91 /* libsqlite3.dylib in Frameworks */,
 				EAA5ED511B45DC140069DE91 /* libz.dylib in Frameworks */,
+				4293E8771B7F182100434AAC /* FBSDKCoreKit.framework in Frameworks */,
 				EAA5ED4F1B45DBF70069DE91 /* SystemConfiguration.framework in Frameworks */,
 				EAA5ED4D1B45DBEE0069DE91 /* StoreKit.framework in Frameworks */,
 				E45642801B570A790086F64D /* ParseUI.framework in Frameworks */,
 				EAA5ED4B1B45DBE80069DE91 /* Security.framework in Frameworks */,
 				EAA5ED491B45DBE10069DE91 /* QuartzCore.framework in Frameworks */,
+				4293E8781B7F182100434AAC /* FBSDKLoginKit.framework in Frameworks */,
 				EAA5ED471B45DBDB0069DE91 /* MobileCoreServices.framework in Frameworks */,
 				E44A39451B54794200525EA6 /* FBSDKShareKit.framework in Frameworks */,
 				EAA5ED451B45DBD20069DE91 /* CoreLocation.framework in Frameworks */,
@@ -646,12 +643,11 @@
 		EAA5ED391B45DB8F0069DE91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4293E8751B7F182100434AAC /* FBSDKCoreKit.framework */,
+				4293E8761B7F182100434AAC /* FBSDKLoginKit.framework */,
 				E49C69861B5994FA00975E95 /* MapKit.framework */,
 				E456427F1B570A790086F64D /* ParseUI.framework */,
 				E44A39441B54794200525EA6 /* FBSDKShareKit.framework */,
-				E4786EFD1B4C3ECF002417A6 /* FBSDKMessengerShareKit.framework */,
-				EAA67AED1B509179007B4068 /* FBSDKCoreKit.framework */,
-				EAA67AEE1B509179007B4068 /* FBSDKLoginKit.framework */,
 				EAA5ED561B45DC2C0069DE91 /* Social.framework */,
 				EAA5ED541B45DC270069DE91 /* Accounts.framework */,
 				EAA5ED521B45DC1D0069DE91 /* libsqlite3.dylib */,
